@@ -1,0 +1,110 @@
+SIMPLE  =                    T                                                  
+BITPIX  =                    8 / Array data type                                
+NAXIS   =                    0                                                  
+EXTEND  =                    T                                                          
+
+-------------------- Original data of observation                       
+DATEORIG= '1969-06-11'         / Original recorded date of the observation      
+TMS-ORIG= 'UT 00:00'           / Start of the observation (logs)                
+TIMEFLAG= 'missing '           / Quality flag of the recorded observation time  
+RA-ORIG = '14:21:12.960'       / RA of plate center as given in source          
+DEC-ORIG= '+42:51:32.03'       / Dec of plate center as given in source         
+OBJECT  = 'FBS 0005'           / Observed object or field                       
+OBJTYPE = 'field   '           / Object type as in WFPDB                        
+EXPTIME =                 1200 /  [s] Exposure time of the first exposure       
+NUMEXP  =                    1 / Number of exposures                                   
+
+-------------------- Observatory and instrument                         
+OBSERVAT= 'Byurakan Astrophysical Observatory' / Observatory name               
+SITELONG=              44.2917 /  [deg] East longitude of observatory           
+SITELAT =              40.1455 /  [deg] Latitude of observatory                 
+SITEELEV=                 1490 /  [m] Elevation of the observatory              
+TELESCOP= 'Byurakan 1 m Schmidt' / Telescope name                               
+TELAPER =                    1 /  [m] Clear aperture of the telescope           
+TELFOC  =                 2.13 /  [m] Focal length of the telescope             
+TELSCALE=                 96.8 /  [arcsec/mm] Plate scale                       
+DETNAM  = 'Photographic Plate' / Detector name                                  
+METHOD  = 'objective prism'    / Observation method as in WFPDB                 
+PRISMANG= '1:30    '           /  [deg] Angle of the objective prism            
+DISPERS =                 2000 /  [Angstrom/mm] Dispersion                              
+
+-------------------- Photographic plate                                 
+PLATENUM= 'fbs0005 '           / Plate number in logs                           
+WFPDB-ID= 'BYU102A001865'      / Plate identifier in WFPDB                      
+SERIES  = 'FBS     '           / Series or survey of plate                      
+PLATEFMT= '16x16   '           / Informal designation of plate format           
+PLATESZ1=                   16 /  [cm] Plate size along axis1                   
+PLATESZ2=                   16 /  [cm] Plate size along axis2                   
+FOV1    =                  4.1 / Field of view along axis 1                     
+FOV2    =                  4.1 / Field of view along axis 2                     
+EMULSION= 'IIAF bkd'           / Type of the photographic emulsion                      
+
+-------------------- Derived observation data                           
+DATE-OBS= '1969-06-11'         / UT date and time of obs. start                 
+YEAR-AVG=     1969.44147843943 / Julian year at mid-point of obs                
+RA      = '14 21 33.881'       / ICRS center of plate RA h:m:s                  
+DEC     = '+42 55 28.51'       / ICRS center of plate Dec d:m:s                 
+RA_DEG  =    215.3911688356505 / [deg] ICRS center of plate RA                  
+DEC_DEG =    42.92458635971423 / [deg] ICRS center of plate Dec                         
+
+-------------------- Scan details                                       
+SCANRES1=                 1600 /  [in-1] Scan resolution along axis 1           
+SCANRES2=                 1600 /  [in-1] Scan resolution along axis 2           
+PIXSIZE1=               15.875 /  [um] Pixel size along axis 1                  
+PIXSIZE2=               15.875 /  [um] Pixel size along axis 2                  
+SCANAUTH= 'Areg Mickaelian'    / Author of the scan                                     
+
+-------------------- Data files                                        
+ORIGIN  = 'Byurakan'           / Origin of this file                                    
+
+-------------------- Spatial WCS                                        
+RADESYS = 'ICRS    '           / Reference System used for RA and Dec           
+WCSAXES =                    2 / Number of FITS axes covered by WCS             
+CTYPE1  = 'RA---TAN-SIP'       / Projection on axis 1                           
+CTYPE2  = 'DEC--TAN-SIP'       / Projection on axis 2                           
+LONPOLE =                180.0 / See sect 2.4 of WCS paper II                   
+LATPOLE =                  0.0 / See sect 2.4 of WCS paper II                   
+CRVAL1  =        215.388891488 / Longitude  of reference point                  
+CRVAL2  =        42.8818692011 / Latitude of reference point                    
+CRPIX1  =                 4801 / X reference pixel                              
+CRPIX2  =                 4701 / Y reference pixel                              
+CUNIT1  = 'deg     '           / X pixel scale units                            
+CUNIT2  = 'deg     '           / Y pixel scale units                            
+CD1_1   =   -0.000430665594285 / (1,1) Full transformation matrix               
+CD1_2   =    1.45232944429E-05 / (1,2) Full transformation matrix               
+CD2_1   =    1.41503310395E-05 / (2,1) Full transformation matrix               
+CD2_2   =    0.000427239201239 / (2,2) Full transformation matrix               
+A_ORDER =                    2 / Correction polynomial order, axis 1            
+A_0_0   =                    0 / Axis 1 correction polynomial, coefficient     
+A_0_1   =                    0 / Axis 1 correction polynomial, coefficient      
+A_0_2   =    1.94555159092E-08 / Axis 1 correction polynomial, coefficient      
+A_1_0   =                    0 / Axis 1 correction polynomial, coefficient      
+A_1_1   =   -5.22529293817E-09 / Axis 1 correction polynomial, coefficient      
+A_2_0   =    1.21139279598E-07 / Axis 1 correction polynomial, coefficient      
+B_ORDER =                    2 / Correction polynomial order, axis 2            
+B_0_0   =                    0 / Axis 2 correction polynomial, coefficient      
+B_0_1   =                    0 / Axis 2 correction polynomial, coefficient      
+B_0_2   =    8.02419397829E-08 / Axis 2 correction polynomial, coefficient      
+B_1_0   =                    0 / Axis 2 correction polynomial, coefficient      
+B_1_1   = 6.85497651267999E-08 / Axis 2 correction polynomial, coefficient      
+B_2_0   =    2.15940113885E-07 / Axis 2 correction polynomial, coefficient      
+AP_ORDER=                    3 / Inverse polynomial order, axis 1               
+AP_0_0  = 7.84703156885999E-07 / Axis 1 inverse polynomial, coefficient         
+AP_0_1  =    1.09508202349E-11 / Axis 1 inverse polynomial, coefficient        
+AP_0_2  =   -1.94555672607E-08 / Axis 1 inverse polynomial, coefficient         
+AP_1_0  = 9.18078854283999E-12 / Axis 1 inverse polynomial, coefficient         
+AP_1_1  =    5.22520786193E-09 / Axis 1 inverse polynomial, coefficient         
+AP_2_0  =    -1.2113950367E-07 / Axis 1 inverse polynomial, coefficient         
+BP_ORDER=                    3 / Inverse polynomial order, axis 2               
+BP_0_0  =    2.57629384476E-06 / Axis 2 inverse polynomial, coefficient         
+BP_0_1  =    4.41968153707E-11 / Axis 2 inverse polynomial, coefficient         
+BP_0_2  =    -8.0242147206E-08 / Axis 2 inverse polynomial, coefficient         
+BP_1_0  =    4.41062719901E-11 / Axis 2 inverse polynomial, coefficient         
+BP_1_1  =   -6.85501811982E-08 / Axis 2 inverse polynomial, coefficient         
+BP_2_0  =   -2.15940783461E-07 / Axis 2 inverse polynomial, coefficient                 
+
+-------------------- Other header cards                                 
+INSTRUME= 'OBJPRISM1.5'                                                                                                                                         
+
+HISTORY GAVO DaCHS template used: wfpdb                                         
+HISTORY Astrometric calibration translated from DSS to proper WCS by addstandardHISTORY headers.py, gavo@ari.uni-heidelberg.de                                  END                                                                                                                                                                                                                                                                                                                                                                                                             
